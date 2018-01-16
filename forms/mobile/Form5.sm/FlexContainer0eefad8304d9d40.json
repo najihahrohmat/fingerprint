@@ -36,8 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Switch0iad6d04b28574b",
-        "flxPopups"
+        "FlexContainer0e7017c3ebf8946"
     ],
     "clipbounds": true,
     "containerweight": 100,

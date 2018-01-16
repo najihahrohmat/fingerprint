@@ -23,6 +23,10 @@
         0
     ],
     "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_skin_": "sdfd1451560140969f29c632c12d1e73",
     "_top_": {
         "type": "string",

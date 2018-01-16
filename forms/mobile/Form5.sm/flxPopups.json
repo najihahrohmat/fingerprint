@@ -52,10 +52,10 @@
         "render": true
     },
     "isvisible": false,
-    "kuid": "ide26c1229904c259a1a68915696124b",
+    "kuid": "d72cb1812aad4cb386666813244a0aca",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0eefad8304d9d40",
+    "parent": "FlexContainer0d1fcbbd6e12e40",
     "pf": "Form5",
     "snapgridsize": 10,
     "snaptogrid": true,

@@ -1,14 +1,13 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizSwitch",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "404dp"
     },
     "_left_": {
         "type": "string",
-        "value": "307dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -16,43 +15,46 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "s43c55e32ada4116b143a1dac1cba9c8",
+    "_percent_": true,
+    "_skin_": "s220ec182e3b41d2b4895ba43c85cb0c",
     "_top_": {
         "type": "string",
-        "value": "377dp"
+        "value": "316dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "FlexContainer0d1fcbbd6e12e40"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "id": "Switch0iad6d04b28574b",
+    "enablescrolling": true,
+    "id": "FlexContainer0e7017c3ebf8946",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kiosk": {
-        "render": false
-    },
-    "kuid": "f752bd0e1117463d8099fcc21d558309",
-    "leftsidetext": "ON",
-    "name": "kony.ui.Switch",
-    "onslide": null,
-    "osPlatform": "iphone",
-    "osVersion": "iOS7",
+    "kuid": "a2275c1a55274ce9a9a8d1f78b52faa8",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
     "parent": "FlexContainer0eefad8304d9d40",
     "pf": "Form5",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "rightsidetext": "OFF",
-    "selectedindex": 0,
-    "wType": "Switch",
-    "widgetalignment": 5,
-    "zindex": 1
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 9
 }

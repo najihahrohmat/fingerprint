@@ -1,0 +1,17 @@
+{
+    "AS_Button_h1c2eb1dd8e54a4ca4da72b0de853103": {
+        "id": "AS_Button_h1c2eb1dd8e54a4ca4da72b0de853103",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_be3df979b2db4176afd4df1c1358b376",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.cancelTouchID();",
+            "callbackType": null
+        }]
+    }
+}

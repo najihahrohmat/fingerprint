@@ -5,7 +5,7 @@ define({
     /** onClick defined for Button0d5fe1eacebdc4d **/
     AS_Button_c7d662e6ce9d4042bf3a5fc1935d0749: function AS_Button_c7d662e6ce9d4042bf3a5fc1935d0749(eventobject) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("Form3");
+        var ntf = new kony.mvc.Navigation("Form5");
         ntf.navigate();
     }
 });
