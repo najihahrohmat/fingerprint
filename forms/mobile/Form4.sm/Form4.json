@@ -25,6 +25,7 @@
             "windowSoftInputMode": 2
         }
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "FlexContainer0b0d772b815be43"
@@ -43,6 +44,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
     "id": "Form4",
     "info": null,
     "initdone": false,

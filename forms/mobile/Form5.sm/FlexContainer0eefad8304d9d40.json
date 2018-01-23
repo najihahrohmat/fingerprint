@@ -36,7 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0e7017c3ebf8946"
+        "FlexContainer0e7017c3ebf8946",
+        "Button0ff446d653d0a4b"
     ],
     "clipbounds": true,
     "containerweight": 100,

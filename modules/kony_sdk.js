@@ -9207,8 +9207,11 @@ function konyXMLHttpRequest(url, params, headers, httpMethod, konyContentType, s
 		resultTable["errmsg"] = kony.sdk.errormessages.connectivity_error_message;
 	    errorCallback(resultTable);
 	};
-
-	httpRequest.withCredentials = xmlHttpRequestOptions["enableWithCredentials"] || false;
+	// As older versions of IE doesn't have xmlHttpRequest2, and it doesn't support "withCredentials" property
+	// We put a check to handle a crash. Cookies will not be transferred in CORS request for IE due to this restriction
+	if("withCredentials" in httpRequest && xmlHttpRequestOptions["enableWithCredentials"] == true){
+		httpRequest.withCredentials = true;
+	}
 
 	httpRequest.open(httpMethod, url, true);
 

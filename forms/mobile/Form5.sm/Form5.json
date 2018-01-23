@@ -25,6 +25,7 @@
             "windowSoftInputMode": 2
         }
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "FlexContainer0eefad8304d9d40"
@@ -43,6 +44,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
     "id": "Form5",
     "info": null,
     "initdone": false,
@@ -94,6 +96,7 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "pagingenabled": false,
     "platform": "iphone",
     "prevDevice": "iPhoneX",
     "prevPlatform": "iphone",

@@ -25,9 +25,10 @@
             "windowSoftInputMode": 2
         }
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0b0d772b815be43"
+        "FlexContainer0d35880b583bb49"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -43,6 +44,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
     "id": "Form3",
     "info": null,
     "initdone": false,

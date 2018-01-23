@@ -1,0 +1,75 @@
+{
+    "AS_Switch_cf76ee2949504c669581da0b5ef1dd1b": {
+        "id": "AS_Switch_cf76ee2949504c669581da0b5ef1dd1b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form5",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dd666a5fa43941b6885664ef2e2f9101"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "IF_CONDITION__fe03f657f99c4667a0242418bdbafcec",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "this.view.Switch0c278d6c67d544c.info",
+                "rightValueType": "varvalue",
+                "operator": "===",
+                "leftItemKUID": "dd666a5fa43941b6885664ef2e2f9101",
+                "leftWidgetKUID": "f286b7c07d7f460dbb69aa98174f56d1",
+                "rightValue": "onSwitch"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ELSE_CONDITION__f671d44b3139486480268fa74ee4bb62",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT__d30c576783024df19cf0a1337a7ed2de",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": "INFORMATION",
+            "yesLabel": "OKAY",
+            "alertMessage": "Fingerprint has been able.",
+            "messageType": "constant",
+            "parentId": "IF_CONDITION__fe03f657f99c4667a0242418bdbafcec",
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT"
+        }, {
+            "id": "SHOW_ALERT__hc0548372c274bda9568cab763080375",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": "INFORMATION",
+            "yesLabel": "OKAY",
+            "alertMessage": "Fingerprint has been disable.",
+            "messageType": "constant",
+            "parentId": "ELSE_CONDITION__f671d44b3139486480268fa74ee4bb62",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT"
+        }]
+    }
+}

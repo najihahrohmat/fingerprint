@@ -36,8 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Button0g0e13be463e146",
-        "Button0i87c31e757ab46"
+        "Button0aadc5248c7af4b",
+        "Button0ce80a9f18c6243",
+        "Button0ie9bc23bafe04e"
     ],
     "clipbounds": true,
     "containerweight": 100,
